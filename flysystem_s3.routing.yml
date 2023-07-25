@@ -1,0 +1,14 @@
+flysystem_s3.cors_sign:
+  path: '/flysystem-s3/cors-upload-sign'
+  defaults:
+    _controller: 'Drupal\flysystem_s3\Controller\S3CorsUploadAjaxController::signRequest'
+  requirements:
+    _permission: 'use S3 CORS upload'
+    _method: 'POST'
+flysystem_s3.cors_save:
+  path: '/flysystem-s3/cors-upload-save'
+  defaults:
+    _controller: 'Drupal\flysystem_s3\Controller\S3CorsUploadAjaxController::saveFile'
+  requirements:
+    _permission: 'use S3 CORS upload'
+    _method: 'POST'
