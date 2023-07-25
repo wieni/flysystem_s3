@@ -1,5 +1,5 @@
 {
-  "name": "drupal/flysystem_s3",
+  "name": "wieni/flysystem_s3",
   "require": {
     "drupal/flysystem": "^2.1@rc",
     "league/flysystem": "^1.0.20",
